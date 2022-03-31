@@ -1,0 +1,32 @@
+body {
+  display: grid;
+  justify-content: center;
+  font-family: 'Red Hat Mono', monospace;
+  background-color: #A4EAF8;
+}
+
+h1, h3 {
+  display: flex;
+  justify-content: center;
+}
+
+#tooltip {
+  position: absolute;
+  visibility: hidden;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #000;
+  background-color: #F2DED7;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+
+#footer {
+  text-align: right;
+  font-size: 1rem;
+  font-family: 'Covered By Your Grace', cursive;
+  color: black;
+}
